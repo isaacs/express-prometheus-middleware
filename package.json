@@ -1,7 +1,7 @@
 {
-  "name": "express-prometheus-middleware",
+  "name": "@isaacs/express-prometheus-middleware",
   "version": "1.2.0",
-  "description": "RED/USE metrics for express applications",
+  "description": "RED/USE metrics for express applications (forked to remove vulnerable optional deps)",
   "keywords": [
     "express",
     "prometheus",
@@ -39,8 +39,5 @@
   "peerDependencies": {
     "express": "4.x",
     "prom-client": ">= 10.x <= 13.x"
-  },
-  "optionalDependencies": {
-    "prometheus-gc-stats": "^0.6.2"
   }
 }

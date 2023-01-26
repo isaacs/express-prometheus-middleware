@@ -1,5 +1,19 @@
 # Express Prometheus Middleware
 
+**Note: this is a fork**
+
+The `express-prometheus-middleware` module is no longer
+maintained, and pulls in some known insecure dependencies.
+Luckily, these are all on an optional dependency, and the code
+works fine without them.  This fork just removes the optional
+dependency.
+
+If starting a new project, you would be strongly advised to
+choose a different prometheus connector, as this one is not
+maintained either.
+
+----
+
 [![npm](https://img.shields.io/npm/v/express-prometheus-middleware.svg)](https://www.npmjs.com/package/express-prometheus-middleware)
 [![Dependency Status](https://david-dm.org/joao-fontenele/express-prometheus-middleware.svg)](https://david-dm.org/joao-fontenele/express-prometheus-middleware)
 [![devDependency Status](https://david-dm.org/joao-fontenele/express-prometheus-middleware/dev-status.svg)](https://david-dm.org/joao-fontenele/express-prometheus-middleware#info=devDependencies)
